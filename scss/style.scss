@@ -1,0 +1,17 @@
+@import "_header";
+
+html{
+   margin: 0;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.block {
+   display: flex;
+   &__container {
+      margin: 10em auto;
+   }
+
+   &__wrap {
+      color: rgb(69, 74, 77);
+      text-align: center;
+   }
+}
